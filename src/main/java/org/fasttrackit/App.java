@@ -26,6 +26,7 @@ public class App
         animalFood.price = 3;
         animalFood.quantity = 500;
         animalFood.stockAvailability = 10;
+        animalFood.expirationDate = "2019-09-16";
 
         Acitvity activity = new Acitvity();
         activity.name = "Running";
@@ -33,7 +34,6 @@ public class App
         Vet vet = new Vet();
         vet.name = "Rob";
         vet.specialization = "Dogs";
-
 
 
 
