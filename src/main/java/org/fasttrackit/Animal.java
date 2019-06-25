@@ -12,4 +12,8 @@ public class Animal {
     String size;
     String livingEnvironment;
 
+    public Animal(String name, double age) {
+        this.name = name;
+        this.age = age;
+    }
 }

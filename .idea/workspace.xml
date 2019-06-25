@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2b7f9b1b-3798-4776-9506-2932e239f1d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalFood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Acitvity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Acitvity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalKeeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Birds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Mammals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Mammals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Vet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+            <state relative-caret-position="680">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -48,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -57,8 +62,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Birds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,8 +75,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Mammals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalKeeper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="102">
+              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -84,8 +97,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalFood.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +111,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Acitvity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Vet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -134,18 +154,18 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Animal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalKeeper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Vet.java" />
         <option value="$PROJECT_DIR$/src/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Acitvity.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/IndoorAnimal.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalWithFur.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/FurryAnimal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Mammals.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Birds.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Animal.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalFood.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Acitvity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalKeeper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Animal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Birds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Mammals.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Vet.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" />
       </list>
     </option>
@@ -297,7 +317,7 @@
       <workItem from="1560787851681" duration="7370000" />
       <workItem from="1560958654277" duration="1486000" />
       <workItem from="1561206417157" duration="5719000" />
-      <workItem from="1561468869491" duration="3709000" />
+      <workItem from="1561468869491" duration="7835000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <created>1560185473194</created>
@@ -355,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560795198059</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added values for subclasses&#10;Created expiration date variable using local date and declared an expiration date for Pork food">
+      <created>1561475860868</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561475860871</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34624000" />
+    <option name="totallyTimeSpent" value="38750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,7 +444,8 @@
     <MESSAGE value="Corrected .gitignore" />
     <MESSAGE value="Corrected gitignore" />
     <MESSAGE value="Practised inheritance relationship" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practised inheritance relationship" />
+    <MESSAGE value="Added values for subclasses&#10;Created expiration date variable using local date and declared an expiration date for Pork food" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added values for subclasses&#10;Created expiration date variable using local date and declared an expiration date for Pork food" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -441,38 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Acitvity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Vet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Birds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Mammals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -483,31 +483,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Birds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Mammals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalKeeper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="102">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalFood.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Acitvity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="238">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Vet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        <state relative-caret-position="680">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
         </state>
       </provider>
     </entry>
