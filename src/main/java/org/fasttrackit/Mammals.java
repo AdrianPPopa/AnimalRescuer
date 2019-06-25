@@ -1,10 +1,26 @@
 package org.fasttrackit;
 
 public class Mammals extends Animal {
-    String furColour;
-    String furLenght;
+    private String furColour;
+    private String furLenght;
 
     public Mammals(String name, double age) {
         super(name, age);
+    }
+
+    public String getFurColour() {
+        return furColour;
+    }
+
+    public void setFurColour(String furColour) {
+        this.furColour = furColour;
+    }
+
+    public String getFurLenght() {
+        return furLenght;
+    }
+
+    public void setFurLenght(String furLenght) {
+        this.furLenght = furLenght;
     }
 }
