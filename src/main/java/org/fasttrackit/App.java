@@ -44,8 +44,8 @@ public class App
 
 
             System.out.println("Expiration Date for Pork is: " + animalFood.getExpirationDate());
-            animalKeeper.feedAnimal("Bobea", "Pork");
-            animalKeeper.doActivity("Running","Bobea" );
+            animalKeeper.feedAnimal(animal.getName(), animalFood.getName());
+            animalKeeper.doActivity(activity.getName(), animal.getName());
         }
     }
 

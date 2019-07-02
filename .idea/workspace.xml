@@ -36,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="39" column="56" lean-forward="true" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -123,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalKeeper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -238,8 +238,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Acitvity.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalFood.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Vet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalKeeper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" />
       </list>
     </option>
   </component>
@@ -391,7 +391,7 @@
       <workItem from="1560958654277" duration="1486000" />
       <workItem from="1561206417157" duration="5719000" />
       <workItem from="1561468869491" duration="21401000" />
-      <workItem from="1561902226394" duration="3094000" />
+      <workItem from="1561902226394" duration="5902000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <created>1560185473194</created>
@@ -477,11 +477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561821176661</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="created feedAnimal and doActivity methods in AnimalKeeper class">
+      <created>1561909953821</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561909953821</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55410000" />
+    <option name="totallyTimeSpent" value="58218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,7 +550,8 @@
     <MESSAGE value="Added constructors for all classes" />
     <MESSAGE value="Encapsulated all the properties" />
     <MESSAGE value="Encapsulated vet properties&#10;Versionated AnimalFood class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encapsulated vet properties&#10;Versionated AnimalFood class" />
+    <MESSAGE value="created feedAnimal and doActivity methods in AnimalKeeper class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created feedAnimal and doActivity methods in AnimalKeeper class" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -716,17 +724,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalKeeper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AnimalKeeper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        <state relative-caret-position="153">
+          <caret line="39" column="56" lean-forward="true" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
         </state>
       </provider>
     </entry>

@@ -31,7 +31,7 @@ public class AnimalKeeper {
     }
 
     public void doActivity (String activity, String animal){
-        System.out.println(name + " is doing " + activity + " with " + animal);
+        System.out.println(name + " is " + activity + " with " + animal);
     }
 
 }
