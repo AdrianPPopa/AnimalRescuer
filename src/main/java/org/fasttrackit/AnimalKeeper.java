@@ -26,12 +26,12 @@ public class AnimalKeeper {
         this.availableCash = availableCash;
     }
 
-    public void feedAnimal (String animal, String animalFood) {
-        System.out.println(name + " just gave some " + animalFood + " food to " + animal);
+    public void feedAnimal (Animal animal, AnimalFood animalFood) {
+        System.out.println(name + " just gave some " + animalFood.getName() + " food to " + animal.getName());
     }
 
-    public void doActivity (String activity, String animal){
-        System.out.println(name + " is " + activity + " with " + animal);
+    public void doActivity (Acitvity activity, Animal animal){
+        System.out.println(name + " is " + activity.getName() + " with " + animal.getName());
     }
 
 }

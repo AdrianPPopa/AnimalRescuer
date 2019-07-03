@@ -6,7 +6,7 @@ public class Animal {
     private double age;
     private int healthLevel ;
     private int hungrySensation ;
-    private int happyness ;
+    private String happyness ;
     private String favoriteFood;
     private String favoriteActivity;
     private String size;
@@ -15,6 +15,10 @@ public class Animal {
     public Animal(String name, double age) {
         this.name = name;
         this.age = age;
+    }
+
+    public void mood (String happyness){
+        System.out.println(name + " is " + happyness );
     }
 
     public String getName() {
@@ -49,11 +53,11 @@ public class Animal {
         this.hungrySensation = hungrySensation;
     }
 
-    public int getHappyness() {
+    public String getHappyness() {
         return happyness;
     }
 
-    public void setHappyness(int happyness) {
+    public void setHappyness(String happyness) {
         this.happyness = happyness;
     }
 
