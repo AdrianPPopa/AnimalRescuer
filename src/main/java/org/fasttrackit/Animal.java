@@ -17,8 +17,8 @@ public class Animal {
         this.age = age;
     }
 
-    public void mood (String happyness){
-        System.out.println(name + " is " + happyness );
+    public void mood (Animal animal){
+        System.out.println(animal.getName() + " is " + animal.getHappyness());
     }
 
     public String getName() {

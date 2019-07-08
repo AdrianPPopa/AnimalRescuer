@@ -8,6 +8,10 @@ public class Mammals extends Animal {
         super(name, age);
     }
 
+    public void mood (Mammals dog){
+        System.out.println(dog.getName() + " is " + dog.getHappyness());
+    }
+
     public String getFurColour() {
         return furColour;
     }

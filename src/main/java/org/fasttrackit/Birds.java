@@ -7,6 +7,10 @@ public class Birds extends Animal {
         super(name, age);
     }
 
+    public void mood (Birds parrot){
+        System.out.println(parrot.getName() + " is " + parrot.getHappyness());
+    }
+
     public String getFeatherColour() {
         return featherColour;
     }
@@ -14,4 +18,5 @@ public class Birds extends Animal {
     public void setFeatherColour(String featherColour) {
         this.featherColour = featherColour;
     }
+
 }
