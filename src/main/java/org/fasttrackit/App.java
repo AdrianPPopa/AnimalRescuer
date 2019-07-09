@@ -15,19 +15,20 @@ public class App
             animal.setHungrySensation(4);
             animal.setFavoriteActivity("Running");
 
-            Birds parrot = new Birds("Polly", 1);
+            Animal parrot = new Birds("Polly", 1);
             parrot.setHealthLevel(9);
             parrot.setHappyness("singing");
             parrot.setFavoriteActivity("Singing");
             parrot.setFavoriteFood("seeds");
-            parrot.setFeatherColour("White");
+            ((Birds) parrot).setFeatherColour("White");
 
-            Mammals dog = new Mammals("Moon", 2);
+            Animal dog = new Mammals("Moon", 2);
             dog.setHealthLevel(10);
             dog.setHappyness("wagging his tail");
             dog.setFavoriteFood("bones");
-            dog.setFurColour("White");
-            dog.setFurLenght("Short");
+            ((Mammals) dog).setFurColour("White");
+            ((Mammals) dog).setFurColour("White");
+            ((Mammals) dog).setFurLenght("Short");
 
             AnimalKeeper animalKeeper = new AnimalKeeper("John", 100);
 
