@@ -7,6 +7,7 @@ public class Animal {
     private int healthLevel ;
     private int hungrySensation ;
     private String happyness ;
+    private int happinessLevel;
     private String favoriteFood;
     private String favoriteActivity;
     private String size;
@@ -91,6 +92,14 @@ public class Animal {
 
     public void setLivingEnvironment(String livingEnvironment) {
         this.livingEnvironment = livingEnvironment;
+    }
+
+    public int getHappinessLevel() {
+        return happinessLevel;
+    }
+
+    public void setHappinessLevel(int happinessLevel) {
+        this.happinessLevel = happinessLevel;
     }
 }
 

@@ -11,6 +11,7 @@ public class App
             Animal animal = new Animal("Bobea", 2.5);
             animal.setHealthLevel(9);
             animal.setHappyness("happy");
+            animal.setHappinessLevel(4);
             animal.setFavoriteFood("Pork");
             animal.setHungrySensation(4);
             animal.setFavoriteActivity("Running");
