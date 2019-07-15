@@ -10,7 +10,6 @@ public class App
         {
             Animal animal = new Animal("Bobea", 2.5);
             animal.setHealthLevel(9);
-            animal.setHappyness("happy");
             animal.setHappinessLevel(4);
             animal.setFavoriteFood("Pork");
             animal.setHungrySensation(4);
@@ -18,14 +17,12 @@ public class App
 
             Animal parrot = new Birds("Polly", 1);
             parrot.setHealthLevel(9);
-            parrot.setHappyness("singing");
             parrot.setFavoriteActivity("Singing");
             parrot.setFavoriteFood("seeds");
             ((Birds) parrot).setFeatherColour("White");
 
             Animal dog = new Mammals("Moon", 2);
             dog.setHealthLevel(10);
-            dog.setHappyness("wagging his tail");
             dog.setFavoriteFood("bones");
             ((Mammals) dog).setFurColour("White");
             ((Mammals) dog).setFurColour("White");
@@ -48,9 +45,9 @@ public class App
             System.out.println("Expiration Date for Pork is: " + animalFood.getExpirationDate());
             animalKeeper.feedAnimal(animal, animalFood);
             animalKeeper.doActivity(activity, animal);
-            animal.mood(animal);
-            parrot.mood(parrot);
-            dog.mood(dog);
+            animal.mood();
+            parrot.mood();
+            dog.mood();
         }
     }
 

@@ -32,6 +32,12 @@ public class AnimalKeeper {
         int currentHungrySensation;
         currentHungrySensation = animal.getHungrySensation() -1;
         System.out.println( animal.getName() + "'s new hungry sensation is " + currentHungrySensation);
+
+        if (animalFood.getName() == animal.getFavoriteFood()){
+            switch (animal.getHappinessLevel() +1) {
+            }
+            System.out.println(animal.getName() + " s new happiness level is " + animal.getHappinessLevel());
+        }
     }
 
     public void doActivity (Acitvity activity, Animal animal){

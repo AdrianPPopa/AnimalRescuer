@@ -7,11 +7,12 @@ public class Birds extends Animal {
         super(name, age);
     }
 
-    @Override
-    public void mood(Animal animal) {
-        super.mood(animal);
-    }
 
+
+    @Override
+    public void mood() {
+        System.out.println( getName() + " is " + "Singing");
+    }
 
     public String getFeatherColour() {
         return featherColour;

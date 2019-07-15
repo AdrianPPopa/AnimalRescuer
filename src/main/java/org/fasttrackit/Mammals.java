@@ -9,10 +9,9 @@ public class Mammals extends Animal {
     }
 
     @Override
-    public void mood(Animal animal) {
-        super.mood(animal);
+    public void mood() {
+        System.out.println( getName() + " Is Wagging His Tail");
     }
-
 
     public String getFurColour() {
         return furColour;

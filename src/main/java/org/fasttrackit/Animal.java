@@ -18,8 +18,24 @@ public class Animal {
         this.age = age;
     }
 
-    public void mood (Animal animal){
-        System.out.println(animal.getName() + " is " + animal.getHappyness());
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", healthLevel=" + healthLevel +
+                ", hungrySensation=" + hungrySensation +
+                ", happyness='" + happyness + '\'' +
+                ", happinessLevel=" + happinessLevel +
+                ", favoriteFood='" + favoriteFood + '\'' +
+                ", favoriteActivity='" + favoriteActivity + '\'' +
+                ", size='" + size + '\'' +
+                ", livingEnvironment='" + livingEnvironment + '\'' +
+                '}';
+    }
+
+    public void mood (){
+        System.out.println( getName() + " is " + "Happy");
     }
 
     public String getName() {
