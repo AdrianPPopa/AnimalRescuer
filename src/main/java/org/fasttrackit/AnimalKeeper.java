@@ -46,10 +46,9 @@ public class AnimalKeeper {
         System.out.println(name + " is " + activity.getName() + " with " + animal.getName());
         if (activity.getName() == animal.getFavoriteActivity()){
             currentHappinessLevel = animal.getHappinessLevel() +2;
-            System.out.println(animal.getName() + "'s new happiness level is " + currentHappinessLevel);
         } else {
-        currentHappinessLevel = animal.getHappinessLevel() +1;
-        System.out.println(animal.getName() + "'s new happiness level is " + currentHappinessLevel);}
+        currentHappinessLevel = animal.getHappinessLevel() +1;}
+        System.out.println(animal.getName() + "'s new happiness level is " + currentHappinessLevel);
     }
 
 }
