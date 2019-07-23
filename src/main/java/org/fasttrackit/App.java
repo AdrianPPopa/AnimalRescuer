@@ -39,6 +39,7 @@ public class App
             Acitvity activity = new Acitvity("Running");
             activity.setDuration(10.5);
 
+
             Vet vet = new Vet("Rob", "Mammals");
 
 
@@ -49,7 +50,13 @@ public class App
             parrot.mood();
             dog.mood();
 
+
+            Game game = new Game();
+            game.start();
+
         }
+
     }
 
 }
+
